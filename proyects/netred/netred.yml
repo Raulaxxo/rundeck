@@ -1,0 +1,10 @@
+docker1:
+  nodename: docker1
+  hostname: 10.255.2.42
+  osVersion: 6.5.0-41-generic
+  osFamily: unix
+  osArch: amd64
+  description: centos
+  osName: Linux
+  username: ec2-user
+  tags: ''

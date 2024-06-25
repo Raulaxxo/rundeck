@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <node name="rundeck" description="Docker1" tags="" hostname="10.255.2.42" osArch="amd64" osFamily="Linux" osName="Centos" osVersion="6.5.0-41-generic" username=""/>
+</project>

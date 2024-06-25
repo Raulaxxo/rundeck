@@ -1,0 +1,23 @@
+version: '3'
+services:
+  rundeck:
+    hostname: rundeck
+    image: rundeck/rundeck:3.3.13
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "3"
+        max-size: "10m"
+    container_name: rundeck
+    restart: always
+    ports:
+      - '4444:4440'
+    environment:
+      - RUNDECK_GRAILS_URL=http://localhost:4440
+    network_mode: bridge
+    extra_hosts:
+      - "host.docker.internal:172.17.0.1"
+      - "gateway.docker.internal:172.17.0.1"
+    volumes:
+      - ./data:/home/rundeck/server/data
+      - ./rundeck/configs:/home/rundeck/configs

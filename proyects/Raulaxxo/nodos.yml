@@ -1,0 +1,20 @@
+rundeck:
+  nodename: rundeck
+  hostname: rundeck
+  osVersion: 6.5.0-41-generic
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: rundeck
+  tags: ''
+Centos:
+  nodename: Centos
+  hostname: 10.10.1.47
+  osVersion: 6.5.0-41-generic
+  osFamily: unix
+  osArch: amd64
+  description: centos
+  osName: Linux
+  username: root
+  tags: ''
